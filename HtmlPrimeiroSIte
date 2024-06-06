@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <leapis.com/css2?family=Outfit:wght@100..90ink rel="preconnect" href="https://fonts.googleapis.com">
+
+    <title>Herois do League of Legends</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="cabecalho">
+        <h1>Campeões</h1>
+    </header>
+    <main class="champion-slider">
+        <button class="btn-seta btn-voltar" id="btn-voltar">
+            <img src="./src/imagens/img.seta.100.png" alt="seta para voltar a imagem">
+        </button>
+        
+>        <ul class="lista-herois">
+            <li class="cartao selecionado fundo-1">
+            <h2 class="nome">Jhin</h2>
+            <img class="imagem-personagem" src="./src/imagens/image.Jhin.jpeg" alt="Jhin">
+            <div class="descricao">
+                <h3 class="titulo">Descrição</h3>
+                <p class="texto" style="font-family: 'Outfit', sans-serif">
+                 Jhin é um atirador muito fragil e vulneravel no meio e no fim de jogo porem possui alto dano em herois frageis e consegue finalizar personagems mais resistentes no fim de jogo
+                </p>
+            </div>
+        </li>
+        <li class="cartao fundo-2">
+            <h2 class="nome">Jax</h2>
+            <img class="imagem-personagem" src="./src/imagens/image.Jax.jpeg" alt="Jax">
+            <div class="descricao">
+                <h3 class="titulo">Descrição</h3>
+                <p class="texto" style="font-family: 'Outfit', sans-serif">
+                 Jax e um lutador  da rota supeior que fica muito forte no meio e do fim de jogo possui altissimo poder em lutas 1v1 
+                </p>
+            </div>
+        </li>
+        <li class="cartao fundo-3">
+            <h2 class="nome">Katarina</h2>
+            <img class="imagem-personagem" src="./src/imagens/image.Katarina.jpeg" alt="Katarina">
+            <div class="descricao">
+                <h3 class="titulo">Descrição</h3>
+                <p class="texto" style="font-family: 'Outfit', sanserif">
+                 Katarina e uma assasina fraca no coemço mas forte no fim e detona todos c sua ultimates em lutas em equipe
+                </p>
+            </div>
+        </li>
+        <li class="cartao fundo-4">
+            <h2 class="nome">Samira</h2>
+            <img class="imagem-personagem" src="./src/imagens/Image.Samira.jpeg" alt="Samira">
+            <div class="descricao">
+                <h3 class="titulo">Descrição</h3>
+                <p class="texto" style="font-family: 'Outfit',sanserif">
+                 Samira e uma atiradora muito forte no começo e no fim de jogo otima para detonar herois frageis e possui mt dano em area com sua ultimate
+                </p>
+            </div>
+        </li>
+
+       
+        </ul>
+
+        <button class="btn-seta" id="btn-avancar">
+            <img src="./src/imagens/img.seta.100.png" alt="seta para avancar a imagem">
+        </button>
+    </main>
+</body>
+</html>
